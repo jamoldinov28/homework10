@@ -1,0 +1,206 @@
+@media (max-width: 900px) {
+    .navbar__menu{
+        display: block;
+        margin-top: 20px;
+    }
+    .navbar__collection,
+    .navbar__title{
+        display: none;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .hero__text{
+        margin-top: -30px;
+    }
+    .hero__text > h2{
+        font-size: 50px;
+    }
+    .hero__text > p{
+        font-size: 30px;
+    }
+    .hero__image{
+        width: 500px;
+    }
+
+
+
+    .title__logo{
+        font-size: 20px;
+    }
+    .topic__logo{
+        font-size: 20px;
+    }
+   
+    .title__wrapper{
+        width: 800px;
+        margin-left: -10px;
+        height: 514px;
+           flex-wrap: wrap;    
+    }
+    .title__box:nth-child(3){
+        margin-top: -160px;
+    }
+    .title__box:nth-child(2){
+        margin-left: 60px;
+    }
+
+
+
+    .card__logo{
+        font-size: 20px;
+    }
+
+
+
+     .grid__wrapper{
+        grid-template-columns: repeat(2, 267px);
+        grid-gap: 70px;
+     }
+     .grid__logo{
+        font-size: 20px;
+     }
+
+
+
+     .pochta__logo{
+        font-size: 20px;
+        gap: 70px;
+     }
+
+     .pochta__text.active >input{
+        width: 550px;  
+    }
+
+     .footter__menu{
+        display: block;
+        margin-left: 60%;
+     }
+     .footter__words{
+        display: none;
+     }
+
+
+}
+@media (max-width: 800px) {
+    .hero__wrapper{
+        flex-direction: column;
+    }
+    .hero__text{
+        margin-top: -70px;
+    }
+     .hero__text > h2{
+         font-size: 30px;
+     }
+     .hero__text > p{
+         font-size: 20px;
+         margin-top: -30px;
+     }
+     .hero__image{
+         width: 400px;
+         margin-left: 20%;
+         margin-top: -20px;
+      }    
+     .her__btn{
+        margin-top: -20px;
+     }
+
+
+
+     .title__wrapper{
+        width: 400px;
+        height: 814px;
+        flex-wrap: wrap;  
+    }
+    .title__box:nth-child(3){
+        margin-top: -160px;
+    }
+    .title__box:nth-child(2){
+        border: none;
+       margin-left: -1px;
+       margin-top: -180px;
+    }
+
+
+
+    .grid__wrapper{
+        grid-template-columns: repeat(1, 267px);
+     }
+     .grid__logo{
+        margin-left: 20px;
+    }
+    .grid__wrapper{
+        margin-left: 29%;
+    }
+
+    .pochta__text.active >input{
+        width: 350px;  
+    }
+
+}
+@media (max-width: 450px) {
+    .hero__text{
+        margin-top: -80px;
+        margin-left: -10px;
+     }
+     .hero__text > h2{
+         font-size: 30px;
+     }
+     .hero__text > p{
+         font-size: 20px;
+         margin-left: 10px;
+     }
+     .hero__image{
+         width: 300px;
+         margin-left: -20px;
+     }
+
+
+     .title__wrapper{
+       width: 350px;
+        height: 814px;
+        flex-wrap: wrap;    
+    }
+    .title__logo{
+        margin-left: 20px;
+    }
+
+
+    .topic__logo{
+        margin-left: 10px;
+    }
+
+
+
+    .title__logo{
+        margin-left: -20px;
+    }
+
+    .card__box{
+        margin-left: -30px;
+    }
+    .card__logo{
+        margin-left: 10px;
+    }
+
+
+    .grid__logo{
+        margin-left: 20px;
+    }
+     .grid__wrapper{
+        margin-left: 29%;
+    }
+    .grid__wrapper{
+        margin-left: 18%;
+    }
+
+
+    .pochta__text.active >input{
+        width: 250px;  
+    }
+    .pochta__text > input{
+        width: 250px;
+    }
+   
+}
